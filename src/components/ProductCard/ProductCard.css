@@ -1,0 +1,83 @@
+.ProductCard {
+  height: 450px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid #e0e0e0;
+  border-radius: 4px; */
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 30px rgba(0, 0, 0, 0.22);
+}
+
+.ProductCard_image {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 4px 4px 0 0;
+  padding-top: 15px;
+}
+
+.ProductCard_title {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ProductCard_description {
+  font-size: 12px;
+  text-align: center;
+  color: #5d5d5d;
+  line-height: 1.25;
+  width: 55%;
+}
+
+.ProductCard_price {
+  font-size: 22px;
+
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  color: #28c8a4;
+  margin: 5px 0;
+}
+
+.ProductCard_button {
+  width: 100%;
+  height: 60px;
+  justify-self: flex-end;
+  align-self: flex-end;
+  flex: 1;
+  background-color: #28c8a4;
+  border: none;
+  border-radius: 0 0 4px 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.ProductCard_rating {
+  margin: 15px 0;
+}
+
+.ProductCard_star {
+  color: #b8c2cb;
+}
+
+.ProductCard_star_filled {
+  color: #fca72d;
+}
+
+.ProductCard_button {
+  cursor: pointer;
+  background-color: #28c8a4;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.ProductCard_button:hover {
+  background-color: #158d7b;
+}

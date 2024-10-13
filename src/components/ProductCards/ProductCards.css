@@ -1,0 +1,8 @@
+.ProductCardsWrapper {
+}
+.ProductCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 65px;
+}
